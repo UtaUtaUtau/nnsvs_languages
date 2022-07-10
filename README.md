@@ -12,7 +12,7 @@ For now it'll only a list of the phonemes. `br`, `pau` and `sil` are all present
 
 ## Japanese
 
-This phoneme system is based off of SynthV/CeVIO/Sinsy with added unvoiced vowels (the capital version) and `dz` for `dZ`
+This phoneme system is based off of SynthV/CeVIO/Sinsy with added unvoiced vowels (the capital version) and `dz` for... `dz` in X-SAMPA
 
 `a`, `i`, `u`, `e`, `o`, `A`, `I`, `U`, `E`, `O`, `N`, `cl`, `t`, `d`, `s`, `sh`, `j`, `z`, `dz`, `ts`, `k`, `g`, `h`, `b`, `p`, `f`, `ch`, `ry`, `ky`, `py`, `ny`, `hy`, `my`, `gy`, `by`, `n`, `m`, `r`, `w`, `v`, `y`
 
