@@ -1,0 +1,349 @@
+#in_dim: 297 (duration/timelag), 301 (acoustic)
+
+QS "L-Phone_Vowel" {*^aa-*,*^ae-*,*^ah-*,*^ao-*,*^aw-*,*^ax-*,*^ay-*,*^eh-*,*^er-*,*^ey-*,*^ih-*,*^iy-*,*^ow-*,*^oy-*,*^uh-*,*^uw-*}
+QS "C-Phone_Vowel" {*-aa+*,*-ae+*,*-ah+*,*-ao+*,*-aw+*,*-ax+*,*-ay+*,*-eh+*,*-er+*,*-ey+*,*-ih+*,*-iy+*,*-ow+*,*-oy+*,*-uh+*,*-uw+*}
+QS "R-Phone_Vowel" {*+aa=*,*+ae=*,*+ah=*,*+ao=*,*+aw=*,*+ax=*,*+ay=*,*+eh=*,*+er=*,*+ey=*,*+ih=*,*+iy=*,*+ow=*,*+oy=*,*+uh=*,*+uw=*}
+
+QS "L-Phone_Consonant" {*^m-*,*^n-*,*^ng-*,*^p-*,*^t-*,*^ch-*,*^k-*,*^b-*,*^d-*,*^jh-*,*^g-*,*^f-*,*^th-*,*^s-*,*^sh-*,*^hh-*,*^v-*,*^dh-*,*^z-*,*^zh-*,*^l-*,*^r-*,*^y-*,*^w-*,*^dr-*,*^tr-*,*^el-*,*^em-*,*^en-*,*^q-*,*^dx-*}
+QS "C-Phone_Consonant" {*-m+*,*-n+*,*-ng+*,*-p+*,*-t+*,*-ch+*,*-k+*,*-b+*,*-d+*,*-jh+*,*-g+*,*-f+*,*-th+*,*-s+*,*-sh+*,*-hh+*,*-v+*,*-dh+*,*-z+*,*-zh+*,*-l+*,*-r+*,*-y+*,*-w+*,*-dr+*,*-tr+*,*-el+*,*-em+*,*-en+*,*-q+*,*-dx+*}
+QS "R-Phone_Consonant" {*+m=*,*+n=*,*+ng=*,*+p=*,*+t=*,*+ch=*,*+k=*,*+b=*,*+d=*,*+jh=*,*+g=*,*+f=*,*+th=*,*+s=*,*+sh=*,*+hh=*,*+v=*,*+dh=*,*+z=*,*+zh=*,*+l=*,*+r=*,*+y=*,*+w=*,*+dr=*,*+tr=*,*+el=*,*+em=*,*+en=*,*+q=*,*+dx=*}
+
+QS "L-Phone_Silence" {*^br-*,*^pau-*,*^sil-*,*^cl-*}
+QS "C-Phone_Silence" {*-br+*,*-pau+*,*-sil+*,*-cl+*}
+QS "R-Phone_Silence" {*+br=*,*+pau=*,*+sil=*,*+cl=*}
+
+QS "L-Phone_Monophthong" {*^aa-*,*^ae-*,*^ah-*,*^ao-*,*^ax-*,*^eh-*,*^er-*,*^ih-*,*^iy-*,*^uh-*,*^uw-*}
+QS "C-Phone_Monophthong" {*-aa+*,*-ae+*,*-ah+*,*-ao+*,*-ax+*,*-eh+*,*-er+*,*-ih+*,*-iy+*,*-uh+*,*-uw+*}
+QS "R-Phone_Monophthong" {*+aa=*,*+ae=*,*+ah=*,*+ao=*,*+ax=*,*+eh=*,*+er=*,*+ih=*,*+iy=*,*+uh=*,*+uw=*}
+
+QS "L-Phone_Diphthong" {*^aw-*,*^ay-*,*^ey-*,*^ow-*,*^oy-*}
+QS "C-Phone_Diphthong" {*-aw+*,*-ay+*,*-ey+*,*-ow+*,*-oy+*}
+QS "R-Phone_Diphthong" {*+aw=*,*+ay=*,*+ey=*,*+ow=*,*+oy=*}
+
+QS "L-Phone_Front" {*^ae-*,*^aw-*,*^ay-*,*^eh-*,*^ey-*,*^ih-*,*^iy-*}
+QS "C-Phone_Front" {*-ae+*,*-aw+*,*-ay+*,*-eh+*,*-ey+*,*-ih+*,*-iy+*}
+QS "R-Phone_Front" {*+ae=*,*+aw=*,*+ay=*,*+eh=*,*+ey=*,*+ih=*,*+iy=*}
+
+QS "L-Phone_Central" {*^aa-*,*^ah-*,*^ax-*,*^er-*}
+QS "C-Phone_Central" {*-aa+*,*-ah+*,*-ax+*,*-er+*}
+QS "R-Phone_Central" {*+aa=*,*+ah=*,*+ax=*,*+er=*}
+
+QS "L-Phone_Back" {*^ao-*,*^ow-*,*^oy-*,*^uh-*,*^uw-*}
+QS "C-Phone_Back" {*-ao+*,*-ow+*,*-oy+*,*-uh+*,*-uw+*}
+QS "R-Phone_Back" {*+ao=*,*+ow=*,*+oy=*,*+uh=*,*+uw=*}
+
+QS "L-Phone_Close" {*^ih-*,*^iy-*,*^uh-*,*^uw-*}
+QS "C-Phone_Close" {*-ih+*,*-iy+*,*-uh+*,*-uw+*}
+QS "R-Phone_Close" {*+ih=*,*+iy=*,*+uh=*,*+uw=*}
+
+QS "L-Phone_Mid" {*^ax-*,*^eh-*,*^er-*,*^ey-*}
+QS "C-Phone_Mid" {*-ax+*,*-eh+*,*-er+*,*-ey+*}
+QS "R-Phone_Mid" {*+ax=*,*+eh=*,*+er=*,*+ey=*}
+
+QS "L-Phone_Open" {*^aa-*,*^ae-*,*^ah-*,*^ao-*,*^aw-*,*^ay-*,*^ow-*,*^oy-*}
+QS "C-Phone_Open" {*-aa+*,*-ae+*,*-ah+*,*-ao+*,*-aw+*,*-ay+*,*-ow+*,*-oy+*}
+QS "R-Phone_Open" {*+aa=*,*+ae=*,*+ah=*,*+ao=*,*+aw=*,*+ay=*,*+ow=*,*+oy=*}
+
+QS "L-Phone_Obstruent" {*^p-*,*^t-*,*^ch-*,*^k-*,*^b-*,*^d-*,*^jh-*,*^g-*,*^dr-*,*^tr-*,*^q-*}
+QS "C-Phone_Obstruent" {*-p+*,*-t+*,*-ch+*,*-k+*,*-b+*,*-d+*,*-jh+*,*-g+*,*-dr+*,*-tr+*,*-q+*}
+QS "R-Phone_Obstruent" {*+p=*,*+t=*,*+ch=*,*+k=*,*+b=*,*+d=*,*+jh=*,*+g=*,*+dr=*,*+tr=*,*+q=*}
+
+QS "L-Phone_Sonorant" {*^m-*,*^n-*,*^ng-*,*^f-*,*^th-*,*^s-*,*^sh-*,*^hh-*,*^v-*,*^dh-*,*^z-*,*^zh-*,*^l-*,*^r-*,*^y-*,*^w-*,*^el-*,*^em-*,*^en-*,*^dx-*}
+QS "C-Phone_Sonorant" {*-m+*,*-n+*,*-ng+*,*-f+*,*-th+*,*-s+*,*-sh+*,*-hh+*,*-v+*,*-dh+*,*-z+*,*-zh+*,*-l+*,*-r+*,*-y+*,*-w+*,*-el+*,*-em+*,*-en+*,*-dx+*}
+QS "R-Phone_Sonorant" {*+m=*,*+n=*,*+ng=*,*+f=*,*+th=*,*+s=*,*+sh=*,*+hh=*,*+v=*,*+dh=*,*+z=*,*+zh=*,*+l=*,*+r=*,*+y=*,*+w=*,*+el=*,*+em=*,*+en=*,*+dx=*}
+
+QS "L-Phone_Vocalic" {*^el-*,*^em-*,*^en-*}
+QS "C-Phone_Vocalic" {*-el+*,*-em+*,*-en+*}
+QS "R-Phone_Vocalic" {*+el=*,*+em=*,*+en=*}
+
+QS "L-Phone_Voiced" {*^m-*,*^n-*,*^ng-*,*^b-*,*^d-*,*^jh-*,*^g-*,*^v-*,*^dh-*,*^z-*,*^zh-*,*^l-*,*^r-*,*^y-*,*^w-*,*^dr-*,*^el-*,*^em-*,*^en-*,*^dx-*}
+QS "C-Phone_Voiced" {*-m+*,*-n+*,*-ng+*,*-b+*,*-d+*,*-jh+*,*-g+*,*-v+*,*-dh+*,*-z+*,*-zh+*,*-l+*,*-r+*,*-y+*,*-w+*,*-dr+*,*-el+*,*-em+*,*-en+*,*-dx+*}
+QS "R-Phone_Voiced" {*+m=*,*+n=*,*+ng=*,*+b=*,*+d=*,*+jh=*,*+g=*,*+v=*,*+dh=*,*+z=*,*+zh=*,*+l=*,*+r=*,*+y=*,*+w=*,*+dr=*,*+el=*,*+em=*,*+en=*,*+dx=*}
+
+QS "L-Phone_Unvoiced" {*^p-*,*^t-*,*^ch-*,*^k-*,*^f-*,*^th-*,*^s-*,*^sh-*,*^hh-*,*^tr-*,*^q-*}
+QS "C-Phone_Unvoiced" {*-p+*,*-t+*,*-ch+*,*-k+*,*-f+*,*-th+*,*-s+*,*-sh+*,*-hh+*,*-tr+*,*-q+*}
+QS "R-Phone_Unvoiced" {*+p=*,*+t=*,*+ch=*,*+k=*,*+f=*,*+th=*,*+s=*,*+sh=*,*+hh=*,*+tr=*,*+q=*}
+
+QS "L-Phone_Rhotic" {*^r-*,*^dr-*,*^tr-*,*^er-*}
+QS "C-Phone_Rhotic" {*-r+*,*-dr+*,*-tr+*,*-er+*}
+QS "R-Phone_Rhotic" {*+r=*,*+dr=*,*+tr=*,*+er=*}
+
+QS "L-Phone_Nasal" {*^m-*,*^n-*,*^ng-*,*^em-*,*^en-*}
+QS "C-Phone_Nasal" {*-m+*,*-n+*,*-ng+*,*-em+*,*-en+*}
+QS "R-Phone_Nasal" {*+m=*,*+n=*,*+ng=*,*+em=*,*+en=*}
+
+QS "L-Phone_Tap" {*^dx-*}
+QS "C-Phone_Tap" {*-dx+*}
+QS "R-Phone_Tap" {*+dx=*}
+
+QS "L-Phone_Stop" {*^p-*,*^t-*,*^k-*,*^b-*,*^d-*,*^g-*,*^q-*}
+QS "C-Phone_Stop" {*-p+*,*-t+*,*-k+*,*-b+*,*-d+*,*-g+*,*-q+*}
+QS "R-Phone_Stop" {*+p=*,*+t=*,*+k=*,*+b=*,*+d=*,*+g=*,*+q=*}
+
+QS "L-Phone_Affricate" {*^ch-*,*^jh-*,*^dr-*,*^tr-*}
+QS "C-Phone_Affricate" {*-ch+*,*-jh+*,*-dr+*,*-tr+*}
+QS "R-Phone_Affricate" {*+ch=*,*+jh=*,*+dr=*,*+tr=*}
+
+QS "L-Phone_Fricative" {*^f-*,*^th-*,*^s-*,*^sh-*,*^hh-*,*^v-*,*^dh-*,*^z-*,*^zh-*}
+QS "C-Phone_Fricative" {*-f+*,*-th+*,*-s+*,*-sh+*,*-hh+*,*-v+*,*-dh+*,*-z+*,*-zh+*}
+QS "R-Phone_Fricative" {*+f=*,*+th=*,*+s=*,*+sh=*,*+hh=*,*+v=*,*+dh=*,*+z=*,*+zh=*}
+
+QS "L-Phone_Approximant" {*^l-*,*^r-*,*^y-*,*^w-*,*^el-*}
+QS "C-Phone_Approximant" {*-l+*,*-r+*,*-y+*,*-w+*,*-el+*}
+QS "R-Phone_Approximant" {*+l=*,*+r=*,*+y=*,*+w=*,*+el=*}
+
+QS "L-Phone_Labial" {*^m-*,*^p-*,*^b-*,*^f-*,*^v-*,*^w-*,*^em-*}
+QS "C-Phone_Labial" {*-m+*,*-p+*,*-b+*,*-f+*,*-v+*,*-w+*,*-em+*}
+QS "R-Phone_Labial" {*+m=*,*+p=*,*+b=*,*+f=*,*+v=*,*+w=*,*+em=*}
+
+QS "L-Phone_Dental" {*^th-*,*^dh-*}
+QS "C-Phone_Dental" {*-th+*,*-dh+*}
+QS "R-Phone_Dental" {*+th=*,*+dh=*}
+
+QS "L-Phone_Alveolar" {*^n-*,*^t-*,*^d-*,*^s-*,*^z-*,*^l-*,*^el-*,*^en-*,*^dx-*}
+QS "C-Phone_Alveolar" {*-n+*,*-t+*,*-d+*,*-s+*,*-z+*,*-l+*,*-el+*,*-en+*,*-dx+*}
+QS "R-Phone_Alveolar" {*+n=*,*+t=*,*+d=*,*+s=*,*+z=*,*+l=*,*+el=*,*+en=*,*+dx=*}
+
+QS "L-Phone_PostAlveolar" {*^ch-*,*^jh-*,*^sh-*,*^zh-*,*^r-*,*^dr-*,*^tr-*}
+QS "C-Phone_PostAlveolar" {*-ch+*,*-jh+*,*-sh+*,*-zh+*,*-r+*,*-dr+*,*-tr+*}
+QS "R-Phone_PostAlveolar" {*+ch=*,*+jh=*,*+sh=*,*+zh=*,*+r=*,*+dr=*,*+tr=*}
+
+QS "L-Phone_Palatal" {*^y-*}
+QS "C-Phone_Palatal" {*-y+*}
+QS "R-Phone_Palatal" {*+y=*}
+
+QS "L-Phone_Velar" {*^ng-*,*^k-*,*^g-*,*^w-*}
+QS "C-Phone_Velar" {*-ng+*,*-k+*,*-g+*,*-w+*}
+QS "R-Phone_Velar" {*+ng=*,*+k=*,*+g=*,*+w=*}
+
+QS "L-Phone_Glottal" {*^hh-*,*^q-*}
+QS "C-Phone_Glottal" {*-hh+*,*-q+*}
+QS "R-Phone_Glottal" {*+hh=*,*+q=*}
+
+QS "L-Phone_Semivowel" {*^r-*,*^y-*,*^w-*}
+QS "C-Phone_Semivowel" {*-r+*,*-y+*,*-w+*}
+QS "R-Phone_Semivowel" {*+r=*,*+y=*,*+w=*}
+
+QS "L-VUV_Voiced" {*^aa-*,*^ae-*,*^ah-*,*^ao-*,*^aw-*,*^ax-*,*^ay-*,*^eh-*,*^er-*,*^ey-*,*^ih-*,*^iy-*,*^ow-*,*^oy-*,*^uh-*,*^uw-*,*^m-*,*^n-*,*^ng-*,*^b-*,*^d-*,*^jh-*,*^g-*,*^v-*,*^dh-*,*^z-*,*^zh-*,*^l-*,*^r-*,*^y-*,*^w-*,*^dr-*,*^el-*,*^em-*,*^en-*,*^dx-*}
+QS "C-VUV_Voiced" {*-aa+*,*-ae+*,*-ah+*,*-ao+*,*-aw+*,*-ax+*,*-ay+*,*-eh+*,*-er+*,*-ey+*,*-ih+*,*-iy+*,*-ow+*,*-oy+*,*-uh+*,*-uw+*,*-m+*,*-n+*,*-ng+*,*-b+*,*-d+*,*-jh+*,*-g+*,*-v+*,*-dh+*,*-z+*,*-zh+*,*-l+*,*-r+*,*-y+*,*-w+*,*-dr+*,*-el+*,*-em+*,*-en+*,*-dx+*}
+QS "R-VUV_Voiced" {*+aa=*,*+ae=*,*+ah=*,*+ao=*,*+aw=*,*+ax=*,*+ay=*,*+eh=*,*+er=*,*+ey=*,*+ih=*,*+iy=*,*+ow=*,*+oy=*,*+uh=*,*+uw=*,*+m=*,*+n=*,*+ng=*,*+b=*,*+d=*,*+jh=*,*+g=*,*+v=*,*+dh=*,*+z=*,*+zh=*,*+l=*,*+r=*,*+y=*,*+w=*,*+dr=*,*+el=*,*+em=*,*+en=*,*+dx=*}
+
+QS "L-VUV_Unvoiced" {*^p-*,*^t-*,*^ch-*,*^k-*,*^f-*,*^th-*,*^s-*,*^sh-*,*^hh-*,*^tr-*,*^q-*}
+QS "C-VUV_Unvoiced" {*-p+*,*-t+*,*-ch+*,*-k+*,*-f+*,*-th+*,*-s+*,*-sh+*,*-hh+*,*-tr+*,*-q+*}
+QS "R-VUV_Unvoiced" {*+p=*,*+t=*,*+ch=*,*+k=*,*+f=*,*+th=*,*+s=*,*+sh=*,*+hh=*,*+tr=*,*+q=*}
+
+QS "L-Phone_br" {*^br-*}
+QS "C-Phone_br" {*-br+*}
+QS "R-Phone_br" {*+br=*}
+QS "L-Phone_pau" {*^pau-*}
+QS "C-Phone_pau" {*-pau+*}
+QS "R-Phone_pau" {*+pau=*}
+QS "L-Phone_sil" {*^sil-*}
+QS "C-Phone_sil" {*-sil+*}
+QS "R-Phone_sil" {*+sil=*}
+QS "L-Phone_cl" {*^cl-*}
+QS "C-Phone_cl" {*-cl+*}
+QS "R-Phone_cl" {*+cl=*}
+QS "L-Phone_m" {*^m-*}
+QS "C-Phone_m" {*-m+*}
+QS "R-Phone_m" {*+m=*}
+QS "L-Phone_n" {*^n-*}
+QS "C-Phone_n" {*-n+*}
+QS "R-Phone_n" {*+n=*}
+QS "L-Phone_ng" {*^ng-*}
+QS "C-Phone_ng" {*-ng+*}
+QS "R-Phone_ng" {*+ng=*}
+QS "L-Phone_p" {*^p-*}
+QS "C-Phone_p" {*-p+*}
+QS "R-Phone_p" {*+p=*}
+QS "L-Phone_t" {*^t-*}
+QS "C-Phone_t" {*-t+*}
+QS "R-Phone_t" {*+t=*}
+QS "L-Phone_ch" {*^ch-*}
+QS "C-Phone_ch" {*-ch+*}
+QS "R-Phone_ch" {*+ch=*}
+QS "L-Phone_k" {*^k-*}
+QS "C-Phone_k" {*-k+*}
+QS "R-Phone_k" {*+k=*}
+QS "L-Phone_b" {*^b-*}
+QS "C-Phone_b" {*-b+*}
+QS "R-Phone_b" {*+b=*}
+QS "L-Phone_d" {*^d-*}
+QS "C-Phone_d" {*-d+*}
+QS "R-Phone_d" {*+d=*}
+QS "L-Phone_jh" {*^jh-*}
+QS "C-Phone_jh" {*-jh+*}
+QS "R-Phone_jh" {*+jh=*}
+QS "L-Phone_g" {*^g-*}
+QS "C-Phone_g" {*-g+*}
+QS "R-Phone_g" {*+g=*}
+QS "L-Phone_f" {*^f-*}
+QS "C-Phone_f" {*-f+*}
+QS "R-Phone_f" {*+f=*}
+QS "L-Phone_th" {*^th-*}
+QS "C-Phone_th" {*-th+*}
+QS "R-Phone_th" {*+th=*}
+QS "L-Phone_s" {*^s-*}
+QS "C-Phone_s" {*-s+*}
+QS "R-Phone_s" {*+s=*}
+QS "L-Phone_sh" {*^sh-*}
+QS "C-Phone_sh" {*-sh+*}
+QS "R-Phone_sh" {*+sh=*}
+QS "L-Phone_hh" {*^hh-*}
+QS "C-Phone_hh" {*-hh+*}
+QS "R-Phone_hh" {*+hh=*}
+QS "L-Phone_v" {*^v-*}
+QS "C-Phone_v" {*-v+*}
+QS "R-Phone_v" {*+v=*}
+QS "L-Phone_dh" {*^dh-*}
+QS "C-Phone_dh" {*-dh+*}
+QS "R-Phone_dh" {*+dh=*}
+QS "L-Phone_z" {*^z-*}
+QS "C-Phone_z" {*-z+*}
+QS "R-Phone_z" {*+z=*}
+QS "L-Phone_zh" {*^zh-*}
+QS "C-Phone_zh" {*-zh+*}
+QS "R-Phone_zh" {*+zh=*}
+QS "L-Phone_l" {*^l-*}
+QS "C-Phone_l" {*-l+*}
+QS "R-Phone_l" {*+l=*}
+QS "L-Phone_r" {*^r-*}
+QS "C-Phone_r" {*-r+*}
+QS "R-Phone_r" {*+r=*}
+QS "L-Phone_y" {*^y-*}
+QS "C-Phone_y" {*-y+*}
+QS "R-Phone_y" {*+y=*}
+QS "L-Phone_w" {*^w-*}
+QS "C-Phone_w" {*-w+*}
+QS "R-Phone_w" {*+w=*}
+QS "L-Phone_dr" {*^dr-*}
+QS "C-Phone_dr" {*-dr+*}
+QS "R-Phone_dr" {*+dr=*}
+QS "L-Phone_tr" {*^tr-*}
+QS "C-Phone_tr" {*-tr+*}
+QS "R-Phone_tr" {*+tr=*}
+QS "L-Phone_el" {*^el-*}
+QS "C-Phone_el" {*-el+*}
+QS "R-Phone_el" {*+el=*}
+QS "L-Phone_em" {*^em-*}
+QS "C-Phone_em" {*-em+*}
+QS "R-Phone_em" {*+em=*}
+QS "L-Phone_en" {*^en-*}
+QS "C-Phone_en" {*-en+*}
+QS "R-Phone_en" {*+en=*}
+QS "L-Phone_q" {*^q-*}
+QS "C-Phone_q" {*-q+*}
+QS "R-Phone_q" {*+q=*}
+QS "L-Phone_dx" {*^dx-*}
+QS "C-Phone_dx" {*-dx+*}
+QS "R-Phone_dx" {*+dx=*}
+QS "L-Phone_aa" {*^aa-*}
+QS "C-Phone_aa" {*-aa+*}
+QS "R-Phone_aa" {*+aa=*}
+QS "L-Phone_ae" {*^ae-*}
+QS "C-Phone_ae" {*-ae+*}
+QS "R-Phone_ae" {*+ae=*}
+QS "L-Phone_ah" {*^ah-*}
+QS "C-Phone_ah" {*-ah+*}
+QS "R-Phone_ah" {*+ah=*}
+QS "L-Phone_ao" {*^ao-*}
+QS "C-Phone_ao" {*-ao+*}
+QS "R-Phone_ao" {*+ao=*}
+QS "L-Phone_aw" {*^aw-*}
+QS "C-Phone_aw" {*-aw+*}
+QS "R-Phone_aw" {*+aw=*}
+QS "L-Phone_ax" {*^ax-*}
+QS "C-Phone_ax" {*-ax+*}
+QS "R-Phone_ax" {*+ax=*}
+QS "L-Phone_ay" {*^ay-*}
+QS "C-Phone_ay" {*-ay+*}
+QS "R-Phone_ay" {*+ay=*}
+QS "L-Phone_eh" {*^eh-*}
+QS "C-Phone_eh" {*-eh+*}
+QS "R-Phone_eh" {*+eh=*}
+QS "L-Phone_er" {*^er-*}
+QS "C-Phone_er" {*-er+*}
+QS "R-Phone_er" {*+er=*}
+QS "L-Phone_ey" {*^ey-*}
+QS "C-Phone_ey" {*-ey+*}
+QS "R-Phone_ey" {*+ey=*}
+QS "L-Phone_ih" {*^ih-*}
+QS "C-Phone_ih" {*-ih+*}
+QS "R-Phone_ih" {*+ih=*}
+QS "L-Phone_iy" {*^iy-*}
+QS "C-Phone_iy" {*-iy+*}
+QS "R-Phone_iy" {*+iy=*}
+QS "L-Phone_ow" {*^ow-*}
+QS "C-Phone_ow" {*-ow+*}
+QS "R-Phone_ow" {*+ow=*}
+QS "L-Phone_oy" {*^oy-*}
+QS "C-Phone_oy" {*-oy+*}
+QS "R-Phone_oy" {*+oy=*}
+QS "L-Phone_uh" {*^uh-*}
+QS "C-Phone_uh" {*-uh+*}
+QS "R-Phone_uh" {*+uh=*}
+QS "L-Phone_uw" {*^uw-*}
+QS "C-Phone_uw" {*-uw+*}
+QS "R-Phone_uw" {*+uw=*}
+
+# from r9y9/nnsvs/recipes/_common
+
+CQS "d1" {/D:(\NOTE)!}
+CQS "e1" {/E:(\NOTE)]}
+CQS "f1" {/F:(\NOTE)#}
+
+CQS "p12" {-(\d+)!}
+CQS "p13" {!(\d+)[}
+
+CQS "p15" {$(\d+)]}
+CQS "a1" {/A:(\d+)-}
+CQS "a2" {-(\d+)-}
+CQS "a3" {-(\d+)@}
+
+CQS "b1" {/B:(\d+)_}
+CQS "b2" {_(\d+)_}
+CQS "b3" {_(\d+)@}
+
+CQS "c1" {/C:(\d+)+}
+CQS "c2" {+(\d+)+}
+CQS "c3" {+(\d+)@}
+
+CQS "d2" {!(\d+)#}
+
+CQS "d6" {|(\d+)&}
+CQS "d7" {&(\d+);}
+CQS "d8" {;(\d+)-}
+
+CQS "e2" {](\d+)^}
+
+CQS "e6" {!(\d+)@}
+CQS "e7" {@(\d+)#}
+CQS "e8" {#(\d+)+}
+
+CQS "e10_position_by_note_in_measure"      {](\d+)$}
+CQS "e11_position_by_note_in_measure"      {$(\d+)|}
+CQS "e12_position_by_10ms_in_measure"      {|(\d+)[}
+CQS "e13_position_by_10ms_in_measure"      {[(\d+)&}
+CQS "e14_position_by_96th_note_in_measure" {&(\d+)]}
+CQS "e15_position_by_96th_note_in_measure" {](\d+)=}
+CQS "e16_position_by_percent_in_measure"   {=(\d+)^}
+CQS "e17_position_by_percent_in_measure"   {^(\d+)~}
+
+# taken from enunu
+CQS "e18_position_by_note"      {~(\d+)#}
+CQS "e19_position_by_note"      {#(\d+)_}
+CQS "e20_position_by_10ms"      {_(\d+);}
+CQS "e21_position_by_10ms"      {;(\d+)$}
+CQS "e22_position_by_96th_note" {$(\d+)&}
+CQS "e23_position_by_96th_note" {&(\d+)%}
+CQS "e24_position_by_percent"   {%(\d+)[}
+CQS "e25_position_by_percent"   {[(\d+)|}
+
+CQS "e57" {~([pm]\d+)+}
+CQS "e58" {+([pm]\d+)!}
+
+CQS "f2" {#(\d+)#}
+
+CQS "f6" {$(\d+)+}
+CQS "f7" {+(\d+)%}
+CQS "f8" {%(\d+);}
