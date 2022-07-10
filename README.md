@@ -18,7 +18,7 @@ This phoneme system is based off of SynthV/CeVIO/Sinsy with added unvoiced vowel
 
 ## English
 
-This phoneme system is based off of ARPABET completely.
+This phoneme system is based off of ARPABET completely. `tr` and `dr` is the same as SynthV's.
 
 `cl`, `m`, `n`, `ng`, `p`, `t`, `ch`, `k`, `b`, `d`, `jh`, `g`, `f`, `th`, `s`, `sh`, `hh`, `v`, `dh`, `z`, `zh`, `l`, `r`, `y`, `w`, `dr`, `tr`, `el`, `em`, `en`, `q`, `dx`, `aa`, `ae`, `ah`, `ao`, `aw`, `ax`, `ay`, `eh`, `er`, `ey`, `ih`, `iy`, `ow`, `oy`, `uh`, `uw`
 
