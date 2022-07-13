@@ -1,5 +1,3 @@
-#in_dim: 200 (duration/timelag), 204 (acoustic)
-
 QS "L-Phone_Silences" {*^br-*,*^sil-*,*^pau-*}
 QS "C-Phone_Silences" {*-br+*,*-sil+*,*-pau+*}
 QS "R-Phone_Silences" {*+br=*,*+sil=*,*+pau=*}

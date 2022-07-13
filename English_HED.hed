@@ -1,5 +1,3 @@
-#in_dim: 297 (duration/timelag), 301 (acoustic)
-
 QS "L-Phone_Vowel" {*^aa-*,*^ae-*,*^ah-*,*^ao-*,*^aw-*,*^ax-*,*^ay-*,*^eh-*,*^er-*,*^ey-*,*^ih-*,*^iy-*,*^ow-*,*^oy-*,*^uh-*,*^uw-*}
 QS "C-Phone_Vowel" {*-aa+*,*-ae+*,*-ah+*,*-ao+*,*-aw+*,*-ax+*,*-ay+*,*-eh+*,*-er+*,*-ey+*,*-ih+*,*-iy+*,*-ow+*,*-oy+*,*-uh+*,*-uw+*}
 QS "R-Phone_Vowel" {*+aa=*,*+ae=*,*+ah=*,*+ao=*,*+aw=*,*+ax=*,*+ay=*,*+eh=*,*+er=*,*+ey=*,*+ih=*,*+iy=*,*+ow=*,*+oy=*,*+uh=*,*+uw=*}
