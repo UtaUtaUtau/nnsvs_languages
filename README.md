@@ -14,6 +14,8 @@ For now it'll only a list of the phonemes. `br`, `pau` and `sil` are all present
 
 This phoneme system is based off of SynthV/CeVIO/Sinsy with added unvoiced vowels (the capital version) and `dz` for... `dz` in X-SAMPA
 
+**NOTE:** `cl` is considered a glottal stop in this hed file. It probably could still be used normally (in the context of Japanese gemination) but only for the stop consonants. It could probably be used for vocal fry as well.
+
 `a`, `i`, `u`, `e`, `o`, `A`, `I`, `U`, `E`, `O`, `N`, `cl`, `t`, `d`, `s`, `sh`, `j`, `z`, `dz`, `ts`, `k`, `g`, `h`, `b`, `p`, `f`, `ch`, `ry`, `ky`, `py`, `ny`, `hy`, `my`, `gy`, `by`, `n`, `m`, `r`, `w`, `v`, `y`
 
 ## English
