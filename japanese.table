@@ -1,5 +1,5 @@
-息 br
 br br
+息 br
 pau pau
 R pau
 sil sil
@@ -210,7 +210,7 @@ sil sil
 ぱ p a
 ヒ h I
 ひ h i
-ビ B I
+ビ b I
 び b i
 ピ p I
 ぴ p i
@@ -365,3 +365,310 @@ sil sil
 お’ o cl
 オ’ O cl
 ん’ N cl
+cl cl
+'A cl A
+'E cl E
+'I cl I
+'N cl N
+'O cl O
+'U cl U
+'a cl a
+'e cl e
+'i cl i
+'o cl o
+'u cl u
+A A
+A' A cl
+E E
+E' E cl
+I I
+I' I cl
+N N
+N' N cl
+O O
+O' O cl
+U U
+U' U cl
+a a
+a' a cl
+bA b A
+bI b I
+bO b O
+bU b U
+ba b a
+be b e
+bi b i
+bo b o
+bu b u
+byA by A
+byE by E
+byO by O
+byU by U
+bya by a
+bye by e
+byo by o
+byu by u
+chA ch A
+chE ch E
+chI ch I
+chO ch O
+chU ch U
+cha ch a
+che ch e
+chi ch i
+cho ch o
+chu ch u
+dA d A
+dE d E
+dI d I
+dO d O
+dU d U
+da d a
+de d e
+di d i
+do d o
+du d u
+e e
+e' e cl
+fA f A
+fE f E
+fI f I
+fO f O
+fU f U
+fa f a
+fe f e
+fi f i
+fo f o
+fu f u
+gA g A
+gE g E
+gI g I
+gO g O
+gU g U
+ga g a
+ge g e
+gi g i
+go g o
+gu g u
+gwA g w A
+gwE g w E
+gwI g w I
+gwO g w O
+gwU g w U
+gwa g w a
+gwe g w e
+gwi g w i
+gwo g w o
+gwu g w u
+gyA gy A
+gyE gy E
+gyO gy O
+gyU gy U
+gya gy a
+gye gy e
+gyo gy o
+gyu gy u
+hA h A
+hE h E
+hI h I
+hO h O
+ha h a
+he h e
+hi h i
+ho h o
+hyA hy A
+hyE hy E
+hyO hy O
+hyU hy U
+hya hy a
+hye hy e
+hyo hy o
+hyu hy u
+i i
+i' i cl
+jA j A
+jE j E
+jI j I
+jO j O
+jU j U
+ja j a
+je j e
+ji j i
+jo j o
+ju j u
+kA k A
+kE k E
+kI k I
+kO k O
+kU k U
+ka k a
+ke k e
+ki k i
+ko k o
+ku k u
+kwA k w A
+kwE k w E
+kwI k w I
+kwO k w O
+kwU k w U
+kwa k w a
+kwe k w e
+kwi k w i
+kwo k w o
+kwu k w u
+kyA ky A
+kyE ky E
+kyO ky O
+kyU ky U
+kya ky a
+kye ky e
+kyo ky o
+kyu ky u
+mA m A
+mE m E
+mI m I
+mO m O
+mU m U
+ma m a
+me m e
+mi m i
+mo m o
+mu m u
+myA my A
+myE my E
+myO my O
+myU my U
+mya my a
+mye my e
+myo my o
+myu my u
+nA n A
+nE n E
+nI n I
+nO n O
+nU n U
+na n a
+ne n e
+ni n i
+no n o
+nu n u
+nyA ny A
+nyE ny E
+nyO ny O
+nyU ny U
+nya ny a
+nye ny e
+nyo ny o
+nyu ny u
+o o
+o' o cl
+pA p A
+pE p E
+pI p I
+pO p O
+pU p U
+pa p a
+pe p e
+pi p i
+po p o
+pu p u
+pyA py A
+pyE py E
+pyO py O
+pyU py U
+pya py a
+pye py e
+pyo py o
+pyu py u
+rA r A
+rE r E
+rI r I
+rO r O
+rU r U
+ra r a
+re r e
+ri r i
+ro r o
+ru r u
+rya ry a
+rye ry e
+ryo ry o
+ryu ry u
+sA s A
+sE s E
+sI s I
+sO s O
+sU s U
+sa s a
+se s e
+shA sh A
+shE sh E
+shI sh I
+shO sh O
+shU sh U
+sha sh a
+she sh e
+shi sh i
+sho sh o
+shu sh u
+si s i
+so s o
+su s u
+tA t A
+tE t E
+tI t I
+tO t O
+tU t U
+ta t a
+te t e
+ti t i
+to t o
+tsA ts A
+tsE ts E
+tsI ts I
+tsO ts O
+tsU ts U
+tsa ts a
+tse ts e
+tsi ts i
+tso ts o
+tsu ts u
+tu t u
+u u
+u' u cl
+vA v A
+vE v E
+vO v O
+vU v U
+va v a
+ve v e
+vi v i
+vo v o
+vu v u
+wA w A
+wE w E
+wI w I
+wO w O
+wU w U
+wa w a
+we w e
+wi w i
+wo w o
+wu w u
+yA y A
+yO y O
+yU y U
+ya y a
+ye y e
+yo y o
+yu y u
+zA z A
+zE z E
+zI z I
+zO z O
+zU z U
+za z a
+ze z e
+zi z i
+zo z o
+zu z u
