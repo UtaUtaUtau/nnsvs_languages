@@ -8,7 +8,7 @@ These files are made to be used for NNSVS/ENUNU as a file to dictate the languag
 
 # Language Guides
 
-For now it'll only a list of the phonemes. `br`, `pau` and `sil` are all present in each.
+For now it'll only a be list of the phonemes. `br`, `pau` and `sil` are all present in each.
 
 ## Japanese
 
@@ -30,11 +30,11 @@ This phoneme system is based off of Tagalog orthrography. I think most of them m
 
 `m`, `n`, `ng`, `p`, `t`, `ty`, `k`, `q`, `b`, `d`, `dy`, `g`, `s`, `sy`, `h`, `l`, `y`, `w`, `r`, `a`, `e`, `i`, `o`, `u`
 
-Phoneme | X-SAMPA Equivalent
- :---: | :---:
- `ng` | `N`
- `ty` | `tS`
- `q` | `?`
- `dy` | `dZ`
- `sy` | `S`
- `r` | `4`
+Phoneme | X-SAMPA | IPA | Example Word (TGL) | Example Word (GenAmE)
+ :---: | :---: | :---: | :---: | :---: 
+ `ng` | `N` | `ŋ` | a**ng** | si**ng**
+ `ty` | `tS` | `t͡ʃ` | ku**ts**ara, ku**ty**a | **ch**in
+ `q` | `?` | `ʔ` | pag**-**ibig | uh**-**oh
+ `dy` | `dZ` | `d͡ʒ` | **dy**aryo | **j**ob
+ `sy` | `S` | `ʃ` | so**sy**al | **sh**are
+ `r` | `4` | `ɾ` | pa**r**a | bu**tt**er
