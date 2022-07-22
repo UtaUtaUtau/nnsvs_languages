@@ -32,9 +32,9 @@ This phoneme system is based off of Tagalog orthrography. I think most of them m
 
 Phoneme | X-SAMPA | IPA | Example Word (TGL) | Example Word (GenAmE)
  :---: | :---: | :---: | :---: | :---: 
- `ng` | `N` | `ŋ` | a**ng** | si**ng**
- `ty` | `tS` | `t͡ʃ` | ku**ts**ara, ku**ty**a | **ch**in
- `q` | `?` | `ʔ` | pag**-**ibig | uh**-**oh
- `dy` | `dZ` | `d͡ʒ` | **dy**aryo | **j**ob
- `sy` | `S` | `ʃ` | so**sy**al | **sh**are
- `r` | `4` | `ɾ` | pa**r**a | bu**tt**er
+ `ng` | `N` | `ŋ` | a***ng*** | si***ng***
+ `ty` | `tS` | `t͡ʃ` | ku***ts***ara, ku***ty***a | ***ch***in
+ `q` | `?` | `ʔ` | pag<b>-</b>big | uh<b>-</b>oh
+ `dy` | `dZ` | `d͡ʒ` | ***dy***aryo | ***j***ob
+ `sy` | `S` | `ʃ` | so***sy***al | ***sh***are
+ `r` | `4` | `ɾ` | pa***r***a | bu***tt***er
