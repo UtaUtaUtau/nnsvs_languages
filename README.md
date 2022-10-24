@@ -34,7 +34,7 @@ Phoneme | X-SAMPA | IPA | Example Word (TGL) | Example Word (GenAmE)
  :---: | :---: | :---: | :---: | :---: 
  `ng` | `N` | `ŋ` | a***ng*** | si***ng***
  `ty` | `tS` | `t͡ʃ` | ku***ts***ara, ku***ty***a | ***ch***in
- `q` | `?` | `ʔ` | pag<b>-</b>big | uh<b>-</b>oh
+ `q` | `?` | `ʔ` | pag<b>-</b>ibig | uh<b>-</b>oh
  `dy` | `dZ` | `d͡ʒ` | ***dy***aryo | ***j***ob
  `sy` | `S` | `ʃ` | so***sy***al | ***sh***are
  `r` | `4` | `ɾ` | pa***r***a | bu***tt***er
